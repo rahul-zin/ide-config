@@ -1,0 +1,40 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true,
+        // "editor.defaultFormatter": "ms-python.python"
+    },
+    "[javascript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.analysis.extraPaths": [
+        "./pypandora",
+        "./pyepsilon",
+        "./zuko",
+        "./serverless_local"
+    ],
+    "python.analysis.typeCheckingMode": "off",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.renderWhitespace": "all",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+}
